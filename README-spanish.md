@@ -30,7 +30,7 @@ Los usuarios deben ser capaces de:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/my-solution-to-manage-landing-page-challenge-2NoeAk-GGD)
 - Live Site URL: [Live site URL](https://managelandingchallenge.netlify.app/)
 
 ## Mi proceso
