@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>Frontend Mentor | Manage landing page</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__grid">
+        <div class="bar">
+          <img class="bar__logo" src="images/logo.svg" alt="Logo">
+          <div class="mobile-menu">
+            <img id="open-btn" class="mobile-menu__img" src="images/icon-hamburger.svg" alt="Mobile menu icon">
+            <img id="close-btn" class="mobile-menu__img mobile-menu__img--hidden" src="images/icon-close.svg" alt="Close mobile menu icon">
+          </div>
+        </div><!--,Bar-->
+  
+        <nav class="nav nav__hidden">
+          <a href="#" class="nav__link">Pricing</a>
+          <a href="#" class="nav__link">Product</a>
+          <a href="#" class="nav__link">About Us</a>
+          <a href="#" class="nav__link">Careers</a>
+          <a href="#" class="nav__link">Community</a>
+        </nav>
+  
+        <div class="get-started">
+          <a href="#" class="get-started__btn">Get Started</a>
+        </div>
+      </div><!--.Header grid-->
+    </div><!--.Header container-->
+    <div class="header__bg"></div>
+
+    <section class="intro">
+      <div class="intro__container">
+        <div class="intro__grid">
+          <img class="intro__img" src="images/illustration-intro.svg" alt="Graphics image">
+  
+          <div class="intro__content">
+            <h1 class="intro__heading">Bring everyone together to build better products.</h1>
+            <p class="intro__text">Manage makes it simple for software teams to plan day-to-day 
+            tasks while keeping the larger team goals in view.</p>
+      
+            <div class="intro__button">
+              <a href="#" class="intro__btn">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div><!--Intro container-->
+    </section>
+  </header>
+
+  <main class="about-us">
+    <div class="about-us__image"></div>
+    <div class="about-us__content">
+
+      <div class="whats-diff">
+
+        <div class="whats-diff__container">
+          <h2 class="whats-diff__heading">What’s different about Manage?</h2>
+          <p class="whats-diff__text">Manage provides all the functionality your team needs, without 
+          the complexity. Our software is tailor-made for modern digital 
+          product teams.</p>
+        </div>
+      </div>
+
+      <div class="services">
+        <div class="service">
+          <h3 class="service__heading">
+            <span class="service-number">01</span>
+            Track company-wide progress
+          </h3>
+          <p class="service__text">See how your day-to-day tasks fit into the wider vision. Go from 
+          tracking progress at the milestone level all the way done to the 
+          smallest of details. Never lose sight of the bigger picture again.</p>
+        </div>
+
+        <div class="service">
+          <h3 class="service__heading">
+            <span class="service-number">02</span>
+            Advanced built-in reports
+          </h3>
+          <p class="service__text">Set internal delivery estimates and track progress toward company 
+          goals. Our customisable dashboard helps you build out the reports 
+          you need to keep key stakeholders informed.</p>
+        </div>
+
+        <div class="service">
+          <h3 class="service__heading">
+            <span class="service-number">03</span>
+            Everything you need in one place
+          </h3>
+          <p class="service__text">Stop jumping from one service to another to communicate, store files, 
+          track tasks and share documents. Manage offers an all-in-one team 
+          productivity solution.</p>
+        </div>
+      </div><!--.Services-->
+    </div><!--.About-us Content-->
+  </main>
+
+  <section class="testimonials">
+    <h3 class="textimonials__heading">What they’ve said</h3>
+
+    <div class="testimonials__container">
+
+      <div class="testimonials__grid">
+        <div id="slide-1" class="testimonial">
+          <img class="testimonial__img" src="images/avatar-anisha.png" alt="Person img">
+          <div class="testimonial__content">
+            <p class="testimonial__name">Anisha Li</p>
+            <p class="testimonial__text">“Manage has supercharged our team’s workflow. The ability to maintain 
+            visibility on larger milestones at all times keeps everyone motivated.”</p>
+          </div>
+        </div>
+  
+        <div id="slide-2" class="testimonial">
+          <img class="testimonial__img" src="images/avatar-ali.png" alt="Person img">
+          <div class="testimonial__content">
+            <p class="testimonial__name">Ali Bravo</p>
+            <p class="testimonial__text">“We have been able to cancel so many other subscriptions since using 
+            Manage. There is no more cross-channel confusion and everyone is much 
+            more focused.”</p>
+          </div>
+        </div>
+  
+        <div id="slide-3" class="testimonial">
+          <img class="testimonial__img" src="images/avatar-richard.png" alt="Person img">
+          <div class="testimonial__content">
+            <p class="testimonial__name">Richard Watts</p>
+            <p class="testimonial__text">“Manage allows us to provide structure and process. It keeps us organized 
+            and focused. I can’t stop recommending them to everyone I talk to!”</p>
+          </div>
+        </div>
+  
+        <div id="slide-4" class="testimonial">
+          <img class="testimonial__img" src="images/avatar-shanai.png" alt="Person img">
+          <div class="testimonial__content">
+            <p class="testimonial__name">Shanai Gough</p>
+            <p class="testimonial__text">  “Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+          </div>
+        </div>
+      </div><!--.Testimonials Grid-->
+
+      <nav class="slider">
+          <div class="slide-btn slide-btn-actual" data-slide="1" id="slide"></div>
+          <div class="slide-btn" data-slide="2" id="slide"></div>
+          <div class="slide-btn" data-slide="3" id="slide"></div>
+          <div class="slide-btn" data-slide="4" id="slide"></div>
+
+      </nav>
+    </div>
+
+    <a href="#" class="testimonials__btn">Get Started</a>
+  </section>
+  
+  
+  <div class="lets-start">
+    <div class="lets-start-bg"></div>
+    <div class="lets-start-bg-2"></div>
+    <p class="lets-start__text">Simplify how your team works today.</p>
+    <a href="#" class=" lets-start__btn--blanco">Get Started</a>
+  </div>
+  
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__grid">
+        <form class="contact">
+          <div class="contact__inputs">
+            <input class="contact__email" type="email" name="email" id="email" placeholder="Updates in your inbox…">
+            <input type="submit" class="contact__button" value="Go">
+          </div>
+        </form>
+  
+        <div class="footer__navigation">
+          <div class="footer__navigation__grid">
+            <nav class="footer__nav">
+              <a href="#" class="footer__nav__link">Home</a>
+              <a href="#" class="footer__nav__link">Pricing</a>
+              <a href="#" class="footer__nav__link">Product</a>
+              <a href="#" class="footer__nav__link">About Us</a>
+            </nav>
+  
+            <nav class="footer__nav footer__nav--2">
+              <a href="#" class="footer__nav__link">Careers</a>
+              <a href="#" class="footer__nav__link">Community</a>
+              <a href="#" class="footer__nav__link">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+  
+        <div class="social-media">
+          <svg class="social-media__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
+          <svg class="social-media__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+          <svg class="social-media__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+          <svg class="social-media__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>
+          <svg class="social-media__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+        </div>
+  
+        <div class="footer__logo">
+          <svg class="logo__img" xmlns="http://www.w3.org/2000/svg" width="146" height="24"><g fill="none" fill-rule="evenodd"><path fill="#FFFFFF" fill-rule="nonzero" d="M40.014 16.809V8.553c0-1.577.366-2.82 1.098-3.73.733-.91 1.65-1.365 2.75-1.365 2.158 0 3.237 1.577 3.237 4.731v8.62h3.782v-9.58c0-2.415-.5-4.22-1.503-5.417C48.376.615 46.945.017 45.084.017c-1.222 0-2.34.234-3.352.703a6.833 6.833 0 00-2.56 2.043h-.066C38.126.932 36.486.017 34.184.017c-.969 0-1.902.217-2.799.653a6.976 6.976 0 00-2.353 1.878h-.05V.265H25.2v16.527h3.782V8.553c0-1.577.372-2.82 1.115-3.73.743-.91 1.693-1.365 2.849-1.365 2.19 0 3.286 1.577 3.286 4.731v8.62h3.782zm21.101.248c2.246 0 3.997-.827 5.252-2.482h.05v2.217h3.616V.265h-3.782V2.25h-.066C64.93.761 63.23.017 61.082.017a7.76 7.76 0 00-5.681 2.415c-.705.75-1.26 1.66-1.668 2.73a9.589 9.589 0 00-.611 3.44c0 1.258.203 2.416.61 3.475.408 1.059.964 1.952 1.669 2.68a7.348 7.348 0 002.535 1.696 8.325 8.325 0 003.18.604zm.595-3.441c-1.399 0-2.538-.466-3.419-1.398-.88-.932-1.321-2.132-1.321-3.599 0-1.555.454-2.804 1.362-3.747.909-.943 2.04-1.414 3.394-1.414 1.343 0 2.458.493 3.345 1.48.886.988 1.33 2.215 1.33 3.681 0 1.467-.455 2.667-1.363 3.599-.909.932-2.018 1.398-3.328 1.398zm27.112 3.193V7.064c0-2.393-.536-4.166-1.61-5.319C86.14.593 84.655.017 82.762.017a7.373 7.373 0 00-3.056.645 6.958 6.958 0 00-2.477 1.87h-.05V.264h-3.782v16.527h3.782V8.487c0-1.588.388-2.823 1.164-3.706.777-.882 1.814-1.323 3.113-1.323.595 0 1.104.077 1.528.231.424.155.796.406 1.115.753.32.348.556.819.71 1.415.154.595.231 1.323.231 2.183v8.769h3.782zm10.218.248c2.246 0 3.996-.827 5.252-2.482h.05v2.217h3.616V.265h-3.782V2.25h-.066C102.855.761 101.154.017 99.007.017a7.76 7.76 0 00-5.682 2.415c-.704.75-1.26 1.66-1.668 2.73a9.589 9.589 0 00-.61 3.44c0 1.258.203 2.416.61 3.475.408 1.059.964 1.952 1.668 2.68a7.348 7.348 0 002.536 1.696 8.325 8.325 0 003.179.604zm.594-3.441c-1.398 0-2.538-.466-3.418-1.398-.881-.932-1.322-2.132-1.322-3.599 0-1.555.455-2.804 1.363-3.747.908-.943 2.04-1.414 3.394-1.414 1.343 0 2.458.493 3.344 1.48.886.988 1.33 2.215 1.33 3.681 0 1.467-.455 2.667-1.363 3.599-.908.932-2.018 1.398-3.328 1.398zm19.07 10.125c1.2 0 2.274-.14 3.22-.422.947-.281 1.743-.673 2.387-1.175a6.385 6.385 0 001.602-1.844 8.14 8.14 0 00.916-2.383c.188-.86.281-1.803.281-2.829V.265h-3.782v1.737h-.066a7.059 7.059 0 00-2.353-1.49A7.62 7.62 0 00118.142 0c-1.508 0-2.862.358-4.062 1.075-1.2.717-2.134 1.713-2.8 2.987-.666 1.273-.999 2.705-.999 4.293 0 1.61.35 3.038 1.049 4.285.699 1.246 1.66 2.203 2.882 2.87 1.222.667 2.598 1.001 4.129 1.001 2.047 0 3.716-.673 5.004-2.018h.066v1.753c0 1.17-.43 2.14-1.288 2.912-.86.772-2.07 1.158-3.634 1.158-1.068 0-2.006-.132-2.816-.397-.809-.265-1.742-.678-2.799-1.24l-.892 3.341c.925.552 1.966.976 3.122 1.274 1.156.298 2.356.447 3.6.447zm.132-10.72c-1.365 0-2.491-.434-3.377-1.3-.887-.865-1.33-2.026-1.33-3.482 0-1.4.435-2.542 1.305-3.425.87-.882 2.004-1.323 3.402-1.323 1.332 0 2.442.435 3.328 1.307.886.871 1.33 2.002 1.33 3.391 0 1.401-.433 2.556-1.297 3.466-.864.91-1.985 1.365-3.361 1.365zm19.086 4.036c1.542 0 2.899-.281 4.071-.844 1.173-.562 2.133-1.323 2.882-2.283l-2.642-2.266c-1.035 1.301-2.406 1.952-4.113 1.952-1.21 0-2.237-.337-3.08-1.01-.842-.672-1.384-1.593-1.627-2.762h12.024c.066-.397.099-.9.099-1.506 0-1.599-.325-3.027-.975-4.285a7.198 7.198 0 00-2.807-2.961c-1.222-.717-2.632-1.075-4.228-1.075a8.191 8.191 0 00-3.188.62c-.99.414-1.844.99-2.56 1.729-.715.739-1.277 1.638-1.684 2.696-.407 1.06-.611 2.212-.611 3.458 0 1.688.369 3.185 1.106 4.492.738 1.307 1.746 2.308 3.023 3.003 1.277.695 2.714 1.042 4.31 1.042zm3.815-10.274h-8.257c.264-1.059.776-1.878 1.535-2.457.76-.579 1.663-.868 2.709-.868 1.057 0 1.93.298 2.618.893.688.596 1.153 1.406 1.395 2.432z"/><g fill="#F3603C"><path d="M2.786 10.286c1.538 0 2.785 1.279 2.785 2.857C5.571 14.72 4.324 16 2.786 16 1.247 16 0 14.72 0 13.143c0-1.578 1.247-2.857 2.786-2.857zM2.786 0C4.324 0 5.57 1.28 5.57 2.857c0 1.578-1.247 2.857-2.785 2.857C1.247 5.714 0 4.435 0 2.857 0 1.28 1.247 0 2.786 0zm10.028 0C14.353 0 15.6 1.28 15.6 2.857c0 1.578-1.247 2.857-2.786 2.857-1.538 0-2.785-1.279-2.785-2.857C10.029 1.28 11.276 0 12.814 0z"/><ellipse cx="12.814" cy="13.257" opacity=".5" rx="2.786" ry="2.857"/></g></g></svg>
+        </div>
+  
+        <p class="footer__copy">Copyright 2020. All Rights Reserved</p>
+  
+
+      </div><!--,Footer grid-->
+
+      <div class="footer__attribution">
+        <p class="footer__attribution-text">Challenge by 
+          <a class="footer__attribution-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        </p> 
+        <p class="footer__attribution-text">Coded by
+          <a class="footer__attribution-link" href="https://www.frontendmentor.io/profile/DanVillanueva30" target="_blank">@DanVillanueva30</a>.
+        </p> 
+      </div>
+    </div><!--.Footer container-->
+  </footer>
+
+
+  <script src="js/app.js"></script>
+</body>
+</html>
