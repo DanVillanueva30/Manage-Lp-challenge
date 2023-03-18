@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/my-solution-to-manage-landing-page-challenge-2NoeAk-GGD)
 - Live Site URL: [Live site URL](https://managelandingchallenge.netlify.app/)
 
 ## My process
